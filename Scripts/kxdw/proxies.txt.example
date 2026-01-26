@@ -1,0 +1,28 @@
+# 代理列表文件示例
+# 每行一个代理地址，支持HTTP、HTTPS、SOCKS5协议
+# 以 # 开头的行是注释，会被忽略
+
+# HTTP代理示例（无认证）
+# http://127.0.0.1:7890
+# http://127.0.0.1:7891
+
+# HTTP代理示例（带用户名密码）
+# http://username:password@proxy.example.com:8080
+
+# SOCKS5代理示例
+# socks5://127.0.0.1:1080
+# socks5://user:pass@127.0.0.1:1080
+
+# HTTPS代理示例
+# https://proxy.example.com:443
+
+# 使用说明：
+# 1. 复制此文件为 proxies.txt
+# 2. 取消注释并填入你的实际代理地址
+# 3. 使用 --proxy-file proxies.txt 参数运行脚本
+
+# 常见代理工具默认端口：
+# Clash: http://127.0.0.1:7890
+# V2Ray: socks5://127.0.0.1:1080
+# Shadowrocket: http://127.0.0.1:7890
+

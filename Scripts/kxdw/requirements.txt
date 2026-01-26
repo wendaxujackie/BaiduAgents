@@ -1,0 +1,5 @@
+pychrome>=0.2.4
+requests>=2.28.0
+websocket-client>=1.4.0
+pysocks>=2.0.0
+

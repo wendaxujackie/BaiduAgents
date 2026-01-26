@@ -1,0 +1,30 @@
+# Python 虚拟环境
+venv/
+env/
+ENV/
+
+# Cookie 文件（包含敏感信息）
+cookies.json
+
+# 上传日志
+upload_logs/
+
+# 任务状态文件
+upload_tasks_status/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db

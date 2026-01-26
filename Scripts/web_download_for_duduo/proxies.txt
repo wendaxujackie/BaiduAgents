@@ -1,0 +1,8 @@
+# Shadowrocket 本地代理配置
+# 请根据你的 Shadowrocket 设置修改端口号
+
+# HTTP 代理（Shadowrocket 默认通常是 7890）
+http://127.0.0.1:7890
+
+# 如果 Shadowrocket 支持 SOCKS5，也可以使用
+# socks5://127.0.0.1:1080
