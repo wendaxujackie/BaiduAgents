@@ -17,7 +17,7 @@ from pathlib import Path
 # 要创建的txt文件
 txt_files = [
     "不定时更新最新版本.txt",
-    "先保存再下载避免失效.txt"
+    "先保存再下载，否则资源会损坏.txt"
 ]
 
 def get_folder_name(file_name):
